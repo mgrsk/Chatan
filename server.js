@@ -2,14 +2,13 @@
 
 const express = require('express');
 const app = express();
-
 app.set('port', process.env.PORT || 3000);
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 
 app.get('/', (req, res, next) => {
-	//res.send('Success!' + req.hello + ' yes!') ;
-	res.sendFile(__dirname + '/views/login.htm');
-	
+	res.render('login');
 });
 
 

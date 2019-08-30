@@ -13,6 +13,7 @@
     "node": "10.16."
   },
   "dependencies": {
+    "ejs": "^2.6.2",
     "express": "^4.13.3"
   }
 }
