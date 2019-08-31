@@ -1,0 +1,5 @@
+{
+	"host": "http://localhost:3000",
+	"dbURI": "mongodb+srv://admin:nfmK0dYJ0dBhB2An@my-database-ul3hl.mongodb.net/test?retryWrites=true&w=majority"
+}
+
