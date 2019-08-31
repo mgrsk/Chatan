@@ -2,8 +2,9 @@
 //This fills in the variables needed to connect to mongoDB
 
 {
-	"host": "http://localhost:3000",
-	"dbURI": "mongoDB_uri_with_username_and_pass"
+	"host": "http://localhost:####",
+	"dbURI": "mongoDB_uri_with_username_and_pass",
+	"sessionSecret": "insert_secret_here"
 }
 
 
