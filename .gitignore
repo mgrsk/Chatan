@@ -62,4 +62,4 @@ typings/
 
 .DS_Store
 
-app\config\development.json
+app/config/development.json
