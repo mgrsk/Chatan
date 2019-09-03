@@ -1,9 +1,10 @@
 'use strict';
-const router = require('./routes');
+const router = require('./routes')();
 const session = require('./session');
+const auth = require('./auth')();
 
 module.exports = {
-	//Router is a function and must be invoked
-	router: router(),
-	session: session
+	router,
+	auth,
+	session
 }

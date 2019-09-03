@@ -2,9 +2,16 @@
 //This fills in the variables needed to connect to mongoDB
 
 {
-	"host": "http://localhost:####",
+	"host": "host_name",
 	"dbURI": "mongoDB_uri_with_username_and_pass",
-	"sessionSecret": "insert_secret_here"
+	"sessionSecret": "insert_secret_here",
+	"fb": {
+		"clientID": "insert_app_id",
+		"clientSecret": "insert_app_secret",
+		"callbackURL": "insert_callback_URL",
+		"enableProof": true,
+		"profileFields": ["id", "displayName", "photos"]
+	}
 }
 
 
